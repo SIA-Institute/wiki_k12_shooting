@@ -6,7 +6,7 @@ Scrapping on [k12 shooting table in wikipedia](https://en.wikipedia.org/wiki/Lis
  
  - Data clean
  
- - Saved in prosessed_data.csv 
+ - Saved in prosessed_data.csv (Reloacte to old_dataframe)
  
  ![img](resource/visualization.png)
 
