@@ -12,6 +12,6 @@ Scrapping on [k12 shooting table in wikipedia](https://en.wikipedia.org/wiki/Lis
 
 # Data Mining 
 
-1. Use Roberta model to do Q/A task on "Descripton column", I asked "Which school?" to extracted School name, and also did Spacy NER looking for "ORG", and Roberta outperform a lot.
-2. Using GCP Place API to find school's information on google map, it inludes detailed address, location, useer reviews. I extracted county data and save in 'County" column in school_county.csv
-3. school's detail information is saved in school_detail.pkl, it is a dictionary, key is the index of school_county.csv.
+1. Useing __Roberta__ model to do Q/A task on "Descripton column", I asked __"Which school?"__ to extracted School name, and also did Spacy NER looking for "ORG", the result shows Roberta extracted data more effectively.
+2. Using GCP Place API to find school's information on google map, the queried data inludes detailed address, location, useer reviews etc. I extracted county data and saved in 'County" column with school_county.csv
+3. School's google map detail information is saved in school_detail.pkl, it is a dictionary, key is the index of school_county.csv.
