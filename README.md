@@ -20,7 +20,7 @@ Scrapping on [k12 shooting table in wikipedia](https://en.wikipedia.org/wiki/Lis
 
 1. Claened data is called _school_county_v2.csv_
 
-2. Using code like this to merge dataframe.
+2. Using code like this to merge with census dataframe.
 ```Python
 df_county.merge(df_census,left_on=['States','County'],right_on=['States','County'],how='left')
 
